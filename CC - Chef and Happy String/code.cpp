@@ -4,9 +4,8 @@ using namespace std;
 class Solution {
 private:
 	static bool isVowel(char &x) {
-		if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u') {
-			return true;
-		} else return false;
+		if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u') return true;
+		else return false;
 	}
 
 public:
